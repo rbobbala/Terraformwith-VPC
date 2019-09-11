@@ -15,3 +15,11 @@ variable "azs" {
 	type = "list"
 	default = ["us-east-1a", "us-east-1b"]
 }
+
+variable "webservers_ami" {
+  default = "ami-0ff8a91507f77f867"
+}
+
+variable "instance_type" {
+  default = "t2.nano"
+}
